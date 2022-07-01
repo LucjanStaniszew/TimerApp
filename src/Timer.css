@@ -1,0 +1,106 @@
+.app {
+  text-align: center;
+  background-image: url("./BigBen.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+  color:black;
+  font-weight: bold;
+}
+
+.time {
+  background: rgba(255, 255, 255, 0.342);
+  font-size: 3rem;
+  padding: 2rem;
+  border-radius: 30px;
+}
+
+.button {
+  padding: .6rem 1.5rem;
+  margin: .4rem;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .8rem;
+  border-style: groove;
+}
+
+.button:focus {
+  outline-width: 0;
+}
+
+.button-primary:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  font-weight: bold;
+}
+
+.button-primary-active {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  font-weight: bold;
+}
+
+.button-primary-inactive {
+  background-color: rgba(255, 255, 255, 0.300);
+  border: 1px solid rgba(255, 255, 255, 0.300);
+  color: black;
+  font-weight: bold;
+}
+
+.button-reset {
+  padding: .6rem 1.5rem;
+  margin: .4rem;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.300);
+  border-style: groove;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .8rem;
+  background-color: rgba(255, 255, 255, 0.300);
+  color: black;
+  font-weight: bold;
+}
+
+.button-reset:hover{
+  background-color: white;
+  border: 1px solid rgba(255, 255, 255, 0.300);
+  color: black;
+  font-weight: bold;
+}
+
+.button-cambio {
+  padding: .6rem 1.5rem;
+  margin: .4rem;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .8rem;
+  border-style: groove;
+  background-color: rgba(0, 0, 0, 0.700);
+  border: 1px solid rgba(0, 0, 0, 0.700);
+  color: white;
+  font-weight: bold;
+}
+
+.button-cambio:hover{
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  font-weight: bold;
+}
+
+.addNumber {
+  background-color: rgba(0, 0, 0, 0.700);
+  border-radius: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.700);
+  color: 1px solid white;
+  font-weight: bold;
+}
